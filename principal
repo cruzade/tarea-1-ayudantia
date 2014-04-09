@@ -12,8 +12,8 @@ tarea-1-ayudantia
 
 <BODY BGCOLOR="green">			
 </H3></FONT>
-<H1>Trabajo N &#176 1 Ayudantia</H1> 
-<LI><A HREF = "pedro.php"TARGET ="_self">Pedro Gonzalez</A>
+<H1>Trabajo N &#176 1 Ayudant&iacutea</H1> 
+<LI><A HREF = "pedro.php"TARGET ="_self">Pedro Gonz&aacutelez</A>
 <LI><A HREF = "camilo.php" TARGET = "_self">Camilo Candia Rubinstein</A>											
 <LI><A HREF ="andres.php" TARGET = "_self">Andres Mardones </A><br>
 
@@ -23,11 +23,11 @@ tarea-1-ayudantia
 
 $strings = array( //string aleatorio
 
-    'Un hombre no se siente orgulloso de las alegrías y del placer. En el fondo lo único
-    que da orgullo y alegría al espíritu
+    'Un hombre no se siente orgulloso de las alegr&iacuteas y del placer. En el fondo lo &uacutenico
+    que da orgullo y alegr&iacutea al esp&iacuteritu
     son los esfuerzos superados con bravura y los sufrimientos soportados con paciencia. Esfuerzo - Robert Walser',
 	
-    'La amistad duplica las alegrías y divide las angustias por la mitad. Amistad - Francis Bacon',
+    'La amistad duplica las alegr&iacuteas y divide las angustias por la mitad. Amistad - Francis Bacon',
 );
 $key = array_rand($strings);
 echo"<font size=\"4\">$strings[$key]</font>";
