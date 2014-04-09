@@ -1,0 +1,35 @@
+tarea-1-ayudantia
+=================
+
+<html> 
+<head> 
+    <meta charset="UTF-8">
+<title>Ejemplo de PHP</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head> 
+ 
+
+<BODY BGCOLOR="green">			
+</H3></FONT>
+<H1>Trabajo N &#176 1 Ayudantia</H1> 
+<LI><A HREF = "pedro.php"TARGET ="_self">Pedro Gonzalez</A>
+<LI><A HREF = "camilo.php" TARGET = "_self">Camilo Candia Rubinstein</A>											
+<LI><A HREF ="andres.php" TARGET = "_self">Andres Mardones </A><br>
+
+
+<?php
+  
+
+$strings = array( //string aleatorio
+
+    'Por que tu imaginaci&oacuten es tu unica barrera',
+	
+    'Es duro fracasar en algo, pero es mucho peor no haberlo intentado',
+);
+$key = array_rand($strings);
+echo"<font size=\"4\">$strings[$key]</font>";
+?>
+
+</body> 
+</html> 
